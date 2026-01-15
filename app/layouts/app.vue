@@ -9,7 +9,7 @@
                         <nuxt-link to="home">Exams App</nuxt-link>
                     </h1>
                     <div class="flex items-center gap-4">
-                        <nuxt-link to="/banco">Banco de Exámenes</nuxt-link>
+                        <nuxt-link to="/examen">Banco de Exámenes</nuxt-link>
                         <nuxt-link to="/organizaciones">Organizaciones</nuxt-link>
                         <UColorModeButton />
 
