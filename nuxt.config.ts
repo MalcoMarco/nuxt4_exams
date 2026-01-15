@@ -9,6 +9,16 @@ export default defineNuxtConfig({
     '@nuxt/scripts'
   ],
 
+  runtimeConfig: {
+    // Variables privadas (solo server-side)
+    apiSecret: '',
+
+    // Variables públicas (accesibles en cliente)
+    public: {
+      apiBaseUrl: 'http://localhost:3000'
+    }
+  },
+
   devtools: {
     enabled: true
   },
